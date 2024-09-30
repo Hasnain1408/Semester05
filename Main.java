@@ -17,9 +17,6 @@ public class Main{
       smartphone.powerOn();
       smartphone.powerOf();
       smartphone.playMusic();
-      Smartphone sm = new Smartphone();
-      sm.playMusic();
-      sm.powerOn();
      } else if (choice == 2) {
       LaptopFactory laptopFactory = new LaptopFactory();
       Laptop laptop = (Laptop) laptopFactory.createDevice();
